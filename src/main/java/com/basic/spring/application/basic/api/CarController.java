@@ -3,8 +3,10 @@ package com.basic.spring.application.basic.api;
 import com.basic.spring.application.basic.model.Car;
 import com.basic.spring.application.basic.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.NonNull;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.UUID;
 
@@ -19,7 +21,7 @@ public class CarController {
         this.carService = carService;
     }
     @PostMapping
-    public void addCar(@RequestBody Car car){
+    public void addCar(@Valid @NonNull @RequestBody Car car){
         carService.addCar(car);
     }
     @GetMapping
@@ -36,7 +38,7 @@ public class CarController {
         carService.deleteCar(id);
     }
     @PutMapping(path = "{id}")
-    public void updateCar(@PathVariable("id") UUID id, @RequestBody Car carToUpdate){
+    public void updateCar(@PathVariable("id") UUID id, @Valid @NonNull @RequestBody Car carToUpdate){
         carService.updateCar(id, carToUpdate);
     }
 

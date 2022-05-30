@@ -16,7 +16,7 @@ public class CarService {
     private final CarDao carDao;
 
     @Autowired
-    public CarService(@Qualifier("fakeDao") CarDao carDao) {
+    public CarService(@Qualifier("postgres") CarDao carDao) {
         this.carDao = carDao;
     }
 
