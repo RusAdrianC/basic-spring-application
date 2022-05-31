@@ -1,0 +1,8 @@
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/dao/CarDataAccessService.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/BasicApplication.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/dao/CarDao.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/DataSource/PostgresDataSource.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/dao/FakeCarDataAccesService.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/api/CarController.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/service/CarService.java
+/home/rusvalentin/Desktop/basic-spring-application/src/main/java/com/basic/spring/application/basic/model/Car.java
